@@ -1,0 +1,125 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body {
+
+    background-color: #f7ecd8;
+    color: orangered;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.container {
+
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 450px 600px 200px;
+    /* grid-template-rows: 20% 70% 10%; */
+    grid-template-areas:"h""m""f";
+
+}
+.cabecalho {
+
+    background: url(/img/fundo_ilee.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:left -30% top -20%;
+}
+
+.cabecalho__titulo{
+ 
+    text-align: center;
+    margin: 200px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+header {
+
+    grid-area: h;
+}
+main {
+
+    grid-area: m;
+    background-color: orangered;
+}
+
+.lorem {
+
+    height: 80%;
+    margin: 30px;
+
+}
+.lorem__texto {
+
+    color: #f7ecd8;
+    font-size: 21px;
+}
+.form2 {
+
+    margin:50px;
+    color: #f7ecd8;
+    border: 1px solid;
+
+}
+.form2 label{
+
+     display: block;
+     margin-left:20px;
+}
+.form2 input {
+
+    display: block;
+    margin-left:20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #f7ecd8;
+
+}
+.form2 textarea {
+
+    display: block;
+    margin-left:20px;
+    background: transparent;
+    border: 1px solid #f7ecd8;
+    border-radius: 5px;
+}
+#enviar{
+ 
+    /* display: block; */
+    border: 1px solid #f7ecd8;
+    margin: 5px 20px 5px 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: orangered;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #f7ecd8;
+
+}
+.escola {
+   
+    display: block;
+    margin-left: 20px;
+}
+.selec {
+
+    margin-left: 20px;
+    border: 1px solid #f7ecd8;
+    font-size: 15px;
+    background: orangered;
+    color: #f7ecd8;   
+
+}
+footer{
+
+    grid-area: f;
+    background-color: black;
+    text-align: center;
+}
+footer img { 
+    margin: 50px;  
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlÊ Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="cabecalho__titulo">IlÊ Tech</div>
+        </header>
+    <main>
+        <section class="lorem">
+        <p class="lorem__texto"> Com o objetivo de fomentar a inclusão de pessoas negras no mercado de trabalho da 
+            Tecnologia da Informação (TI), a Faculdade de Tecnologia Senac Pelotas, em parceria com o Instituto Acredite, 
+            lança o projeto inédito ILÊ Tech, voltado para a capacitação e aperfeiçoamento gratuito da comunidade negra pelotense.
+             As inscrições já estão abertas e vão até o dia 2 de janeiro de 2023. As aulas terão início em 13 de fevereiro e ocorrerão
+            de segunda a sexta-feira, das 19h às 22h. 
+        </p>
+        <fieldset class="form2">
+            <legend>Inscreva-se aqui</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="email">WhatsApp/Telegram</label>
+            <input type="number" name="telefone" id="telefone" required>
+            <label for="email">Cidade</label>
+            <input type="text" name="cidade" id="cidade" required>
+            <label for="escola" class="escola">Escolha sua escolaridade</label>
+            <select name="escolaridade" class="selec">
+                <option value="0">Selecione</option>
+                <option value="">Ensino Médio</option>
+                <option value="">Ensino Superior Incompleto</option>
+                <option value="">Ensino Superior Completo</option>
+                <option value="">Pós-Graduação</option>
+            </select>
+            <label for="mensagem">Fale sobre você</label>
+            <textarea name="mensagem" id="mensagem" cols="40" rows="5"></textarea>
+            <input type="submit" value="Enviar Inscrição" class="enviar" id="enviar">
+        </fieldset>
+        </section>
+    </main>
+     <footer>
+       <img src="/img/footer_1.png">
+     </footer>
+    </div>
+</body>
+</html>
